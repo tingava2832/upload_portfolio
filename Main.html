@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+    <link rel="stylesheet" href="styles1.css">
+
+</head>
+
+<body>
+    <div id="PortfolioAndNav">
+        <h1>My portfolio</h1>
+        <nav>
+            <P>About me</P>
+            <P>Project</P>
+            <P>Skills</P>
+            <p><a href="contact.html"> Contact</a></p>
+        </nav>
+    </div>
+    <hr>
+
+    <section class="name">
+        <div>
+            <h2> Vitcha Auitrakul</h2>
+            <h2>(นาย วิชชา อุ่ยตระกูล)</h2>
+        </div>
+        <img width="120px" src="G:\study\VScodetutorial\Portfolio_project\Vitcha.PNG" alt="VitchaPicture">
+    </section>
+    <hr>
+
+    <section id="persona">
+        <div>
+        <img height="40px" src="G:\study\VScodetutorial\Portfolio_project\logo\persona_logo.PNG" alt="PersonaPic">
+        <h2> Personal detail</h2>
+        </div>
+
+            <ul>
+                <li>Age: 36</li>
+                <li>Birth date: 24 March 87</li>
+                <li>Nationality : Thai</li> 
+                <li>Religion : Buddha</li>
+                <li>Military status : Exempted (Finished R.O.T.C.)</li>
+                <li>Tel: 084-1740304</li>
+                <li>E-mail: tingy_electrical@hotmail.com</li>
+                <li>Home: 121/1 Moo 4 T. Saraphi A.Saraphi Chiang Mai 50140 </li>
+            </ul>
+    </section>
+    <hr>
+
+    <section id="education">
+        <div>
+            <img height="40px" src="G:\study\VScodetutorial\Portfolio_project\logo\Education_logo.PNG" alt="EducationPic">
+            <h2> Education</h2>
+        </div>
+    
+        <ul>
+            <li>2005 - 2010 :Bachelor of Engineering (Electrical Engineering) Chiangmai University (GPA 2.32)</li>
+            <li>2002 - 2005 :Wachirawit Secondary School Chiang Mai</li>
+            <li>1993 - 2002 :Monfort College Chiangmai</li>
+        </ul>
+    </section>
+    <hr>
+
+
+    <section id="workex">
+        <div>
+        <img height="40px" src="G:\study\VScodetutorial\Portfolio_project\logo\workex_logo.PNG" alt="WorkexPic">
+        <h2> Work experiences</h2>
+        </div>
+        <h3> 22 Mar'10 - 18 Mar'16 : Fujikura Electronics (Thailand) Ltd. (Lamphun)</h3>
+        <h3> Product Engineer</h3>
+        <ul>
+            <li>Design tooling and process flow for new product ,sample product and mass product.</li>
+            <li>Programing PNP for plce the LED on product (Surface Mount Technology).</li>
+            <li>Programing dispening machine (Resin type)</li>
+            <li>Programing Electrical tester machine for checking product function. </li>
+            <li>Productivity improvement in production (Tooling, Human ergonomic).</li>
+            <li>Participated in Small Group activity compettion for production improvement</li>
+        </ul>
+        <h3> Process Engineer</h3>
+        <ul>
+            <li>Design tooling and process flow for new product ,sample product and mass product.</li>
+            <li>Programing PNP for plce the LED on product (Surface Mount Technology).</li>
+            <li>Programing dispening machine (Resin type)</li>
+            <li>Programing Electrical tester machine for checking product function. </li>
+            <li>Productivity improvement in production (Tooling, Human ergonomic).</li>
+            <li>Participated in Small Group activity compettion for production improvement</li>
+        </ul>
+
+        <h3> 28 Mar'16 - Present  : Hana Microelectronics Public Co., Ltd. (Thailand Lamphun)</h3>
+        <h3> Product Engineer</h3>
+        <ul>
+            <li>Experiment and evalution new material for Mass production.</li>
+            <li>NPI product's BOM setting up and validate with Customer.</li>
+            <li>Troubleshoot & Experiment for solving product functional fail.</li>
+            <li>Improve product yield & HPU by Fixture, Method.</li>
+            <li>Product cost calculation & awareness  (Revenues, Gross profit, Net profit).</li>
+            <li>Cooperate & Follow up with other department to meet the project timeline.</li>
+            <li>Support the implementation of engineering changes, Internal cand external customer complain.</li>
+        </ul>
+
+        <h3> Process Engineer</h3>
+        <ul>
+            <li>Knowledgeable in SMT process (Screen print, SPI, PNP, Reflow soldering).</li>
+            <li>Knowledgeable 2D, 3D AOI (automated visual inspection).</li>
+            <li>Set up & Buyoff  M/C  for NPI/Mass production.</li>
+        </ul>
+    </section>
+    <hr>
+
+   <section id="skill">
+        <div>
+            <img height="40px" src="G:\study\VScodetutorial\Portfolio_project\logo\Skill_logo.PNG" alt="SkillPic">
+            <h2> Skills</h2>
+        </div>
+    <h3>Programming languages: Assembly , C, VBA</h3>
+    <h3>Applications : AutoCad , Solid work </h3>
+    <h3> Electrical :</h3>
+        <ul>
+            <li>Knowledge of Integrated Circuit , Electronic , Power electronics.</li>
+            <li>Knowledge of PLC ladder diagram.</li>
+            <li>Knowledge of Microcontroller and Embedded system.</li>
+        </ul> 
+    </section> 
+
+    <h2>Sample Form</h2>
+    <form action="/submit_form" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+        
+        <input id="submit" type="submit" value="Submit">
+        
+
+    </form>
+    <button id="button">butt</button>
+
+ 
+    <p id="demo"></p>
+
+</body>
+
+<footer>
+    <script  type="text/javascript" src="script.js"></script>
+</footer>
+</html>
